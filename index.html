@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./main.js" defer></script>
+    
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/32px-Windows_logo_-_2021.svg.png">
+    <title>Windows 11 Clone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="body">
+    <div class="taskbar">
+           </div>
+        <div class="taskbar-clr"></div>
+        <div class="actual-taskbar">
+            <div class="center-tb">
+                <img id="start" class="clicked" src="./assets/taskbar/start-menu.svg" alt="">
+                <img class="clicked" src="./assets/taskbar/search.svg" alt="">
+                <img class="clicked" src="./assets/taskbar/microsoft-edge-new-2020-seeklogo.com-2.svg" alt="">
+                <img class="clicked" src="./assets/taskbar/Windows_Explorer_Icon.svg" alt="">
+                <img class="clicked" src="./assets/taskbar/store.svg" alt="">
+
+                <div class="right-taskbar">
+                    <img class="white-img" id="arrow" src="./assets/taskbar/right/arrow.svg">
+                    <img class="white-img" src="./assets/taskbar/right/battery.svg">
+                    <img class="white-img" src="./assets/taskbar/right/Speaker_Icon.svg">
+                    <img class="white-img" src="./assets/taskbar/right/wifi.svg">
+                    <div class="date">
+                        <p class="hover" id="taskTime">11:37 AM</p>
+                        <p class="hover" id="taskDate">30 Aug 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup jPop">
+            <div class="actual-popup">
+                <div class="search-box">
+                    <input id="search-box" placeholder="Type here to search" type="text">
+                </div>
+
+                <div class="stuff">
+                    <div class="pinned">Pinned</div>
+                    <div class="allApps easyDoesIt">All apps <span style="font-size: 16px"></span></div>
+                </div>
+
+                <div class="recApps">
+                    <div class="appImg center easyDoesIt">
+                        <img src="./assets/apps/node.svg" id="node">
+                        <p class="recAppName">node</p>
+                    </div>
+
+                    <div class="appImg center easyDoesIt" id="powerpoint">
+                        <img src="./assets/apps/powerpoint.svg">
+                        <p class="recAppName">powerpoint</p>
+                    </div>
+
+                    <div class="appImg center easyDoesIt" id="photoshop">
+                        <img src="./assets/apps/ps.svg">
+                        <p class="recAppName">photoshop</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="settings">
+                        <img src="./assets/apps/settings.svg">
+                        <p class="recAppName">settings</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="mincrosoft">
+                        <img src="./assets/apps/store.svg">
+                        <p class="recAppName">microsoft store</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="Teams">
+                        <img src="./assets/apps/teams.svg">
+                        <p class="recAppName">microsoft Teams</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="word">
+                        <img src="./assets/apps/word.svg">
+                        <p class="recAppName">word</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="adobe">
+                        <img src="./assets/apps/xd.svg">
+                        <p class="recAppName">adobe xd</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="youtube">
+                        <img src="./assets/apps/youtube.svg">
+                        <p class="recAppName">youTube</p>
+                    </div>
+
+                    <div class="appImg center easyDoesIt" id="angular">
+                        <img src="./assets/apps/angular.svg">
+                        <p class="recAppName">angular</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="chrome">
+                        <img src="./assets/apps/chrome.svg">
+                        <p class="recAppName">chrome</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="vscode">
+                        <img src="./assets/apps/code.svg">
+                        <p class="recAppName">vs Code</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="excel">
+                        <img src="./assets/apps/excel.svg">
+                        <p class="recAppName">excel</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="insta">
+                        <img src="./assets/apps/gram.svg">
+                        <p class="recAppName">instagram</p>
+                    </div>
+                    <div class="appImg center easyDoesIt" id="messeng">
+                        <img src="./assets/apps/messenger.svg">
+                        <p class="recAppName">messenger</p>
+                    </div>
+                </div>
+
+                <div class="recommended">
+                    <div class="pinned">Recommended</div>
+                    <div class="allApps">More <span style="font-size: 16px"></span></div>
+                </div>
+
+                <div class="recent">
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/code.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">GuitarShop.html</p>
+                            <p class="openDate">infinity</p>
+                        </div>
+                    </div>
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/netflix.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">Hitler</p>
+                            <p class="openDate">2 years ago</p>
+                        </div>
+                    </div>
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/angular.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">Minecraft</p>
+                            <p class="openDate">Yesterdat at 3:07 AM</p>
+                        </div>
+                    </div>
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/word.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">8B THE BEST WORD FILE</p>
+                            <p class="openDate">Yesterday at 4:57 PM</p>
+                        </div>
+                    </div>
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/pr.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">Spider man</p>
+                            <p class="openDate">9h ago</p>
+                        </div>
+                    </div>
+                    <div class="recOpened hover easyDoesIt">
+                        <img src="./assets/apps/Spotify.svg">
+                        <div class="recOpenedName">
+                            <p class="fileName">ac/dc-back in black</p>
+                            <p class="openDate">Just now</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="user">
+                    <div class="profile">
+                        <div class="username">
+                            <div class="userImg">
+                                <img src="./assets/user.jpg">
+                            </div>
+                            <p class="myName" style="font-weight: 500; cursor: default;">Gevorg</p>
+                        </div>
+
+                        <div class="power" style="right: 0%; position: relative;">
+
+                            <div class="power-btn">
+                                <img id="p-btn" style="cursor: pointer;" src="./assets/power.svg">
+                                <div class="power-menu">
+                                    <p class="hover nada">Sleep</p>
+                                    <p class="hover nada">Restart</p>
+                                    <p class="hover nada">Shut down</p>
+
+                                    <div class="folder">
+                                        <div class="folder1">
+                                            <div class="settings2">
+                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="fa-regular fa-window-restore"></i>
+                                                <i class="fa-solid fa-minus"></i>
+                                        </div>
+                                    </div>
+                                      
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
